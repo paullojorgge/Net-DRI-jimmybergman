@@ -79,7 +79,7 @@ sub setup
   $self->ns({ $w => ['http://www.eurid.eu/xml/epp/'.$w.'-1.1',$w.'-1.1.xsd'] });
  }
 
- $self->ns({ registrar => ['http://www.eurid.eu/xml/epp/registrar-1.0','registrar-1.1.xsd'] });
+ $self->ns({ registrar => ['http://www.eurid.eu/xml/epp/registrar-1.0','registrar-1.0.xsd'] });
 
  $self->capabilities('contact_update','status',undef); ## No changes in status possible for .EU domains/contacts
  $self->capabilities('domain_update','status',undef);
